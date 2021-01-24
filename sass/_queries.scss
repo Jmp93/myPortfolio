@@ -1,0 +1,105 @@
+@media (max-width: 1100px) {
+  .about-main {
+    display: block;
+    position: relative;
+
+    .about-info {
+      margin-bottom: 5rem;
+    }
+
+    .about-details {
+      margin: 0;
+    }
+
+    .person-info {
+      display: flex;
+      width: 80%;
+      flex-wrap: wrap;
+
+      .info {
+        margin-right: 1.4rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    margin-left: 0;
+  }
+
+  .sidebar {
+    margin-left: -12.5rem;
+    transition: margin 0.3s ease-in-out;
+  }
+
+  .active {
+    margin-left: 0;
+    z-index: 1001;
+    transition: margin 0.3s ease-in-out;
+  }
+
+  .showcase {
+    .hero {
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+
+      .hero-text {
+        font-size: 48px;
+        font-family: $playfair;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+
+        .hero-span {
+          font-family: $playfair;
+          font-weight: 900;
+          font-size: 48px;
+          color: $accent-blue;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .logo-text {
+    display: none;
+  }
+
+  .about,
+  .portfolio,
+  .contact {
+    margin-top: 5rem;
+  }
+
+  .mobile {
+    opacity: 1;
+  }
+
+  .about-main {
+    display: block;
+    position: relative;
+
+    .about-info {
+      margin-bottom: 5rem;
+    }
+
+    .about-details {
+      margin: 0;
+    }
+
+    .person-info {
+      display: flex;
+      width: 80%;
+      flex-wrap: wrap;
+
+      .info {
+        margin-right: 1.4rem;
+      }
+    }
+  }
+}

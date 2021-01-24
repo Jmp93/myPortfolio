@@ -1,0 +1,135 @@
+.mobile {
+  min-height: 50px;
+  background-color: $dark-grey;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1000;
+
+  .mob-head {
+    font-family: $playfair;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0.5rem;
+    display: block;
+  }
+
+  .hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border-left: 1px solid $med-grey;
+    cursor: pointer;
+    color: #fff;
+
+    i {
+      padding: 1rem;
+      font-size: 22px;
+    }
+  }
+}
+
+.sidebar {
+  max-width: 12.5rem;
+  min-width: 10vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $dark-grey;
+
+  .top-section {
+    position: relative;
+    .logo {
+      width: 100%;
+    }
+
+    .logo-text {
+      font-family: $playfair;
+      padding: 0.5rem;
+      font-size: 20px;
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      width: 100%;
+      background: #00a1e1d0;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+
+    .nav-item {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 12px;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid rgba(70, 69, 69, 0.5);
+      height: 100%;
+
+      i {
+        padding-right: 0.7rem;
+        font-size: 1.2rem;
+      }
+
+      .active {
+        color: #fff;
+      }
+    }
+
+    .nav-link {
+      font-family: $roboto;
+      color: $nav-text-grey;
+      text-transform: uppercase;
+      text-decoration: none;
+      height: 100%;
+      width: 100%;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 0.8rem;
+    width: 90%;
+    color: $nav-text-grey;
+    text-align: center;
+
+    .socials {
+      font-weight: 400;
+      font-size: 18px;
+
+      i {
+        padding-right: 0.6em;
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+
+    .copyright {
+      font-size: 12px;
+      margin: 1rem 0;
+    }
+  }
+}

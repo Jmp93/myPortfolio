@@ -1,0 +1,55 @@
+.showcase {
+  color: #fff;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../img/showcase-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  &::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .hero {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -70%);
+
+    .hero-text {
+      font-size: 62px;
+      font-family: $playfair;
+      font-weight: 500;
+      color: #fff;
+      text-transform: uppercase;
+
+      .hero-span {
+        font-family: $playfair;
+        font-weight: 900;
+        font-size: 62px;
+        color: $accent-blue;
+        text-transform: uppercase;
+      }
+    }
+    .hero-sub {
+      font-family: $roboto;
+      font-size: 28px;
+      font-weight: 300;
+      margin-top: 1rem;
+
+      .sub-span {
+        font-weight: 700;
+        border-bottom: 2px solid $accent-blue;
+      }
+    }
+  }
+}
