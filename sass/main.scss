@@ -1,14 +1,7 @@
-@import "global";
-@import "fonts";
-@import "nav";
+@import 'global';
+@import 'fonts';
+@import 'nav';
 @import 'home';
-@import "about";
-@import "contact";
-@import "queries";
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Roboto:wght@300;400;700&display=swap');
-
-
-
-
-
+@import 'about';
+@import 'contact';
+@import 'queries';
