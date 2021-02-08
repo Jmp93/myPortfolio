@@ -457,6 +457,7 @@ section {
 .contact .contact-main .contact-form textarea {
   width: 100%;
   margin: 0.5rem 0;
+  position: relative;
 }
 
 .contact .contact-main .contact-form input::-webkit-input-placeholder,
@@ -465,6 +466,8 @@ section {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  position: absolute;
+  left: 10rem;
 }
 
 .contact .contact-main .contact-form input:-ms-input-placeholder,
@@ -473,6 +476,8 @@ section {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  position: absolute;
+  left: 10rem;
 }
 
 .contact .contact-main .contact-form input::-ms-input-placeholder,
@@ -481,6 +486,8 @@ section {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  position: absolute;
+  left: 10rem;
 }
 
 .contact .contact-main .contact-form input::placeholder,
@@ -489,6 +496,8 @@ section {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  position: absolute;
+  left: 10rem;
 }
 
 .contact .contact-main .contact-form .text-box {
@@ -530,6 +539,7 @@ section {
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 
 .contact .contact-main .contact-form .send-btn:hover {
