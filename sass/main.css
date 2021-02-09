@@ -643,31 +643,26 @@ section {
   }
 }
 
-.portfolio {
-  width: 90%;
-  max-width: 1100px;
-  margin: 3rem auto;
-  margin-left: 12.5rem;
+.portfolio__item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin-top: 3rem;
 }
 
-.portfolio__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 50%;
+@media (max-width: 1100px) {
+  .portfolio__item {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 
 .portfolio__img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .portfolio__text {
-  max-width: 50%;
+  padding: 5rem;
 }
 /*# sourceMappingURL=main.css.map */
