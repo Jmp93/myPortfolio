@@ -66,5 +66,10 @@
     font-family: $roboto;
     padding: 0.5rem 1rem;
     border: 2px solid $text-grey;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: $accent-blue;
+    }
   }
 }

@@ -719,5 +719,11 @@ section {
   font-family: "Roboto", sans-serif;
   padding: 0.5rem 1rem;
   border: 2px solid #e1e1e1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio__btn:hover {
+  background-color: #00a3e1;
 }
 /*# sourceMappingURL=main.css.map */
