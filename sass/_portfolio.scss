@@ -1,0 +1,30 @@
+.portfolio {
+  width: 90%;
+  max-width: 1100px;
+  margin: 3rem auto;
+  margin-left: 12.5rem;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50%;
+  }
+
+  &__image {
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__text {
+    max-width: 50%;
+  }
+
+  &__heading {
+  }
+
+  &__sub {
+  }
+}
