@@ -118,8 +118,21 @@
       font-weight: 400;
       font-size: 18px;
 
+      a {
+        color: $nav-text-grey;
+        transition: all 0.3s ease-in-out;
+
+        &:not(:last-child) {
+          padding-right: 0.7rem;
+        }
+
+        &:hover {
+          color: #555;
+        }
+      }
+
       i {
-        padding-right: 0.6em;
+        font-size: 1.6rem;
 
         &:last-child {
           padding-right: 0;
