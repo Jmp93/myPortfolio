@@ -673,7 +673,7 @@ section {
 }
 
 .portfolio__text {
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
   position: relative;
 }
 
@@ -690,6 +690,9 @@ section {
 }
 
 @media (max-width: 1100px) {
+  .portfolio__text {
+    padding: 2rem;
+  }
   .portfolio__text::after {
     height: 0;
     width: 0;
