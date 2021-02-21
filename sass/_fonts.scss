@@ -1,16 +1,18 @@
+@use 'global' as g;
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Roboto:wght@300;400;700&display=swap');
 
 .head-main {
-  font-family: $playfair;
+  font-family: g.$playfair;
   font-weight: 700;
   font-style: normal;
   font-size: 36px;
   line-height: 36px;
-  color: $accent-blue;
+  color: g.$accent-blue;
 }
 
 .head-secondary {
-  font-family: $playfair;
+  font-family: g.$playfair;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -19,7 +21,7 @@
 }
 
 .title {
-  font-family: $playfair;
+  font-family: g.$playfair;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -28,7 +30,7 @@
 }
 
 .title-info {
-  font-family: $roboto;
+  font-family: g.$roboto;
   font-style: normal;
   font-size: 16px;
   line-height: 26px;
@@ -40,14 +42,14 @@
   font-style: normal;
   font-size: 50px;
   line-height: 50px;
-  color: $accent-blue;
+  color: g.$accent-blue;
 }
 
 .text {
-  font-family: $roboto;
+  font-family: g.$roboto;
   font-size: 16px;
   line-height: 1.8;
-  color: $text-grey;
+  color: g.$text-grey;
   letter-spacing: 0.8px;
   margin-bottom: 1rem;
 }
